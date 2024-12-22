@@ -1,0 +1,53 @@
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.options-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.task-input{
+    height: 25px;
+    border-radius: 7px;
+    width: 300px;
+}
+
+.input-row{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.todo-row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.todo-span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
+
+.todolist{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
